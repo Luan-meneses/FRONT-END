@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .num{
+            width: 30px;
+        }
+        .row{
+            margin: 5px;
+        }
+        label{
+            font-size: 18px;
+            font-weight: 300;
+            width: 100px;
+            text-align: center;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset{
+            width: 600px;
+            font-size: 26px;
+            margin-top: 5px;
+            border: 1px solid #060708;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de cadastro</h1>
+
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+                <div class="row">
+                    <label>Nome:</label><input type="text">
+                    <label>Email:</label><input type="text">
+                </div>
+                <div class="row">
+                    <label>Profissão:</label><input type="text">
+                    <label>Empresa:</label><input type="text">
+                </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <div class="row">
+                <label>Endereço:</label><input type="text">
+                <label>Número:</label><input type="text" class="num">
+            </div>
+            <div class="row">
+                <label>Bairro:</label><input type="text">
+                <label>Cidade/UF:</label><input type="text">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de Contato</legend>
+            <div class="row">
+                <label>Calular:</label><input type="text">
+                <label>Linkedin:</label><input type="text">
+            </div>
+            <div class="row">
+                <label>Whatsapp:</label><input type="text">
+                <label>Github:</label><input type="text">
+            </div>
+        </fieldset>
+
+
+    <div class="botao">
+        <button>Limpar</button>
+        <button>Enviar formulário</button>
+    </div>
+</body>
+</html>
